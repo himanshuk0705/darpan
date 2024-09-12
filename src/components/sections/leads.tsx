@@ -46,12 +46,7 @@ export default function Leads() {
           imagePath="/faculty/nikhilesh.jpeg"
          
         />
-        <ProfileCard
-          name="Dr. Amar Arora"
-          description="Head Co-ordinator"
-          imagePath="/faculty/amar.png"
-          
-        />
+       
        
       </div>
     </section>
