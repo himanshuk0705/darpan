@@ -15,74 +15,44 @@ type EventsByYear = {
 const EventsList: EventsByYear = {
   yr2023: [
     {
-      name: "Phoenix'23",
-      description: "Annual Tech Fest of JEC covered by fotokraft year 2023",
-      thumbnail: `/events/2023/phoenix.jpg`,
+      name: "ORIENTATION'24",
+      description: "Darpan Orientation of the year 2024-25",
+      thumbnail: `/events/phoenix.jpg`,
       album: "",
     },
     {
-      name: "CreatriX'23",
+      name: "ANUGOONJ'24",
+      description: "The Annual Cultural Festival of GGSIPU, Delhi. Delhi's Largest Social and Cultural College Festival. 8th - 10th February 2024.",
+      thumbnail: `/events/anu2.jpg`,
+      album: "",
+    },
+    {
+      name: "ELYSIAN'24",
       description: "Annual Photography competiton held all over the state",
       thumbnail: `/events/2023/creatrix.jpg`,
       album: "",
     },
     {
-      name: "PhotoWalk",
-      description: "",
-      thumbnail: `/events/2023/photowalk.jpg`,
+      name: "MIHIMA'23",
+      description: "Sparkling memories from a luminous Diwali Celebration,Darpan presents the cinematic hues of MIHIMA'23,the diwali fest of GGSIPU organized by USAP.",
+      thumbnail: "/events/mihima.jpg",
       album: "",
     },
     {
-      name: "WorkShop",
-      description: `The First Workshop of Session 2023 is held on 11th March .Where everyone got to know about the Basics of Photography by learning from each other and applying the same for a said objective. Looking forward to more such meets. Greetings✨`,
+      name: "ORIENTATION'23",
+      description: "The Annual Cultural Festival of GGSIPU, Delhi. Delhi's Largest Social and Cultural College Festival. 3rd - 5th March 2023.",
       thumbnail: `/events/2023/workshop.jpg`,
       album: "",
     },
-  ],
-  yr2022: [
     {
-      name: "Phoenix'22",
+      name: "ELYSINA'23",
       description: "Annual Tech Fest of JEC covered by fotokraft year 2022",
       thumbnail: `/events/2022/phoenix.jpg`,
       album: "",
     },
-    {
-      name: "CreatriX'22",
-      description: "Annual Photography competiton held all over the state ",
-      thumbnail: `/events/2022/creatrix.jpg`,
-      album: "",
-    },
-    {
-      name: "College Week",
-      description:
-        "Withness the fun and joy college week as we cover the competitons and engagement . ",
-      thumbnail: `/events/2022/college_week.jpg`,
-      album: "",
-    },
-    {
-      name: "Short Film Making Competiton",
-      description: "Showcase your passion and story through a short film",
-      thumbnail: `/events/2022/short_film_making_competition.jpg`,
-      album: "",
-    },
-    {
-      name: "Photo Exibition",
-      description: "Showcasing all of your creative works",
-      thumbnail: `/events/2022/photo_exhibition.jpg`,
-      album: "",
-    },
-    {
-      name: "WorkShop by Ashwini Borkotoki",
-      description: `workshop on photography basics and more powered by cannon`,
-      thumbnail: `/events/2022/workshop_by_ashwini_borkotoki.jpg`,
-      album: "",
-    },
-    {
-      name: "Lets Meet",
-      description: `We are grateful and extremely delighted to announce that Obiettivo, the photography club of NIT, Silchar has collaborated with FOTOKRAFT along with the photography clubs of prestigious colleges like Flashpoint (Assam Engineering College), Tezpur University Photography Club, Photography and Fine Arts Club (NIT Meghalaya) for a grand photography weekend.`,
-      thumbnail: `/events/2022/lets_meet.jpg`,
-      album: "",
-    },
+  ],
+  yr2022: [
+    
   ],
 };
 

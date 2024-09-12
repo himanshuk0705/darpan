@@ -100,9 +100,9 @@ export default function Navbar() {
     >
       <NavItem to="#home">
         <img
-          src="/Fotokraft 1.svg"
-          className="w-10 object-scale-down"
-          alt="Fotokraft logo"
+          src="/dl.png"
+          className="w-24 h-24 object-scale-down"
+          alt="Darpan logo"
         />
       </NavItem>
 
@@ -113,14 +113,14 @@ export default function Navbar() {
         <NavItem to="#about">About</NavItem>
         <NavItem to="#events">Events</NavItem>
         <NavItem to="#leads">Leads</NavItem>
-        <NavItem to="#join-club">Join</NavItem>
+        
        
       </div>
 
       <NavItem to="#home">
         <img
-          src="/JEC_logo_.png"
-          className="w-12 object-scale-down"
+          src="/ipu.png"
+          className="w-24 h-24 object-scale-down"
           alt="jec logo"
         />
       </NavItem>

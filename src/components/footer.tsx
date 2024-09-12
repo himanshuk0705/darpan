@@ -4,19 +4,19 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <div
-      className={`bg-slate-800 text-gray-400 p-4 flex items-center justify-around`}
+      className={`bg-black text-gray-400 p-4 flex items-center justify-around`}
     >
       <div className="flex gap-4">
-        <Copyright /> Jorhat Engineering College, FotoKraft club
+        <Copyright /> Guru Gobind Singh Indraprastha University
       </div>
       <div className="flex flex-col">
         <span> Developed by </span>
-        <span>Abhishek Prasad Gupta, CSE 24 JEC</span>
+        <span> Himanshu Kumar USAR-26 </span>
         <span className="flex gap-4 ">
-          <Link href="https://github.com/abhipdgupta" target="_blank">
+          <Link href="https://github.com/himanshuk0705" target="_blank">
             <GithubIcon />
           </Link>
-          <Link href="https://linkedin.com/in/abhishek-prasad-gupta" target="_blank">
+          <Link href="https://www.linkedin.com/in/himanshu-kumar-739440258" target="_blank">
             <LinkedinIcon />
           </Link>
         </span>

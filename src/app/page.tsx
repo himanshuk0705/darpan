@@ -13,8 +13,7 @@ import JoinQR from "@/components/sections/qr";
 
 export default function Home() {
  
-  // NOTE: give fix or min height to the div elements whose size is not define during renders like images
-  // if it is not loaded it will not contribute to the size rather give a height unless gsap wonot work properly
+  
 
   gsap.registerPlugin(ScrollTrigger, ScrollToPlugin, Flip);
   const heightref = useRef<HTMLDivElement>(null);
@@ -22,12 +21,12 @@ export default function Home() {
   return (
     <div ref={heightref} className="select-none ">
       <Navbar />
-      <div className="min-h-screen overflow-y-scroll no-scrollbar  bg-slate-950 overflow-hidden">
+      <div className="min-h-screen overflow-y-scroll no-scrollbar  bg-black overflow-hidden">
         <Hero />
         <About />
         <Events />
         <Leads />
-        <JoinQR/>
+        {/* <JoinQR/> */}
         <Footer />
       </div>
     </div>

@@ -34,41 +34,25 @@ export default function Leads() {
      "
     >
       <span ref={lead} className="text-white text-4xl font-bold text-center  ">
-        Leads 2023-24
+        Faculty Coordinator
       </span>
       <div
         ref={profileRef}
         className="flex items-center lg:justify-around mx-auto gap-4 overflow-x-auto overflow-y-hidden snap-x snap-proximity overscroll-x-contain p-2 container "
       >
         <ProfileCard
-          name="Nikhil Gautam"
+          name="Dr. Nikhilesh Sharma"
           description="Head Co-ordinator"
-          imagePath="/leads/nikhil1.jpg"
-          instagram="https://www.instagram.com/pseudo_human10/"
-          linkedin="https://www.linkedin.com/in/nikhil-gautam-4769451b0/"
+          imagePath="/faculty/nikhilesh.jpeg"
+         
         />
         <ProfileCard
-          name="Kallul Shivam Majumder"
+          name="Dr. Amar Arora"
           description="Head Co-ordinator"
-          imagePath="/leads/kallul1.jpg"
-          instagram="https://www.instagram.com/kallul__shivam/"
-          linkedin="https://www.linkedin.com/in/kallul-shivam-shuttermonks-99767428a/"
+          imagePath="/faculty/amar.png"
+          
         />
-        <ProfileCard
-          name="Debasis Das"
-          description="Head Co-ordinator"
-          imagePath="/leads/debasis1.jpg"
-          instagram="https://www.instagram.com/debasisho_o/"
-          linkedin="https://www.linkedin.com/in/debasish-das-1923041b3/"
-        />
-
-        <ProfileCard
-          name="Dibyashree Chakraborty"
-          description="Head Co-ordinator"
-          imagePath="/leads/dibyashree1.jpg"
-          instagram="https://www.instagram.com/_batshya__dibyashree__/"
-          linkedin="https://www.linkedin.com/in/dibyashree-chakravarty-96457a211/"
-        />
+       
       </div>
     </section>
   );

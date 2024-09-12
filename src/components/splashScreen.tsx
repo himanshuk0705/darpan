@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 
 import { Progress } from "@/components/ui/progress";
+import Image from "next/image";
 
 export function ProgressDemo() {
   const [progress, setProgress] = useState(20);
@@ -20,8 +21,8 @@ export function ProgressDemo() {
 export default function Loading() {
   return (
     <main className="flex min-h-screen flex-col bg-black items-center justify-start p-24 gap-8">
-      <img src="/Fotokraft 1.svg" className="w-52 h-48" alt="Fotokraft logo" />
-      <span className="text-5xl font-thin">FOTOKRAFTJEC</span>
+      <Image src="/dl.png" width={300} height={300} alt="Darpan logo" />
+      <span className="text-5xl font-thin">Darpan</span>
       <ProgressDemo />
     </main>
   );

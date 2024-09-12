@@ -68,27 +68,27 @@ export default function Hero() {
   };
   return (
     <>
-      {/* Socials */}
+     
       <section
         ref={socials}
         className=" md:mx-3 fixed flex flex-col justify-end right-0 bottom-0 
           z-20
         "
       >
-        <div className="flex flex-col justify-center items-center">
-          {showSocial ? <Socials /> : ""}
-        </div>
+          {/* <div className="flex flex-col justify-center items-center">
+            {showSocial ? <Socials /> : ""}
+          </div>
 
-        <div
-          className="border-2 rounded-full m-4 cursor-pointer"
-          onClick={() => handleclick()}
-        >
-          <ChevronUp
-            className={`w-6 h-6 m-3  ${
-              showSocial ? "rotate-180 " : ""
-            } transition-all duration-500`}
-          />
-        </div>
+          <div
+            className="border-2 rounded-full m-4 cursor-pointer"
+            onClick={() => handleclick()}
+          >
+            <ChevronUp
+              className={`w-6 h-6 m-3  ${
+                showSocial ? "rotate-180 " : ""
+              } transition-all duration-500`}
+            />
+          </div> */}
       </section>
       <section
         id="home"
@@ -101,32 +101,21 @@ export default function Hero() {
       bg-gradient-to-r from-amber-400 via-slate-300 to-red-600 bg-clip-text
       absolute z-2  text-5xl md:text-6xl lg:text-9xl text-transparent bg-300% animate-gradient font-extrabold drop-shadow-2xl"
         >
-          <span className="text-[8px]  lg:text-sm text-slate-400 absolute -top-5 left-1 ">
-            estd 18-04-2012
-          </span>
-          FotoKraft.Club
+          
+          Darpan
         </h1>
         <span
           ref={subtext}
-          className="absolute  font-extrabold text-xs text-gray-300 lg:tracking-[.4rem] cursor-pointer"
+          className="absolute  font-extrabold text-xs text-gray-300 lg:tracking-[.4rem] cursor-pointer mb-10 mt-10"
         >
-          <Link
-            href={"https://jecassam.ac.in/student-activity/fotokraft/"}
-            target="_blank"
-          >
-            .Jorhat Engineering College.
-          </Link>
+       
+            Guru Gobind Singh Indraprastha University - EDC
+         
         </span>
         <div ref={camera} className="">
-          <img src="/camera.png" className="object-cove  " alt="" />
+          <img src="/dslrn.png" className="object-cove  " alt="" />
         </div>
-        {/* <div
-          className="border-2 rounded-full w-12 h-12 flex items-center justify-center cursor-pointer z-40
-        absolute
-      "
-        >
-          <Play className="" />
-        </div> */}
+       
       </section>
     </>
   );
